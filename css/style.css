@@ -22,7 +22,7 @@ body {
       font-size: 16px; } }
 
 a {
-  color: #19976E;
+  color: #fff;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -32,10 +32,11 @@ a {
     text-decoration: none !important; }
 
 p {
+  color: #fff;
   margin-bottom: 1.5em; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #000;
+  color: #fff;
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 30px 0; }
@@ -84,7 +85,7 @@ figure {
   left: 0;
   overflow-y: scroll;
   z-index: 1001;
-  background: #fff;
+  background: #1a1a1a;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -139,7 +140,7 @@ figure {
       text-transform: uppercase;
       letter-spacing: 1px; }
       #colorlib-aside #colorlib-main-menu ul li a {
-        color: rgba(0, 0, 0, 0.4);
+        color: #fafafa;
         text-decoration: none;
         position: relative;
         padding: 10px 0;
@@ -154,7 +155,7 @@ figure {
           bottom: 7px;
           left: 0;
           right: 0;
-          background-color: #000;
+          background-color: #a6a6a6;
           visibility: hidden;
           -webkit-transform: scaleX(0);
           -moz-transform: scaleX(0);
@@ -168,7 +169,7 @@ figure {
           transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
         #colorlib-aside #colorlib-main-menu ul li a:hover {
           text-decoration: none;
-          color: black; }
+          color: #19976E; }
           #colorlib-aside #colorlib-main-menu ul li a:hover:after {
             visibility: visible;
             -webkit-transform: scaleX(1);
@@ -177,7 +178,7 @@ figure {
             -o-transform: scaleX(1);
             transform: scaleX(1); }
       #colorlib-aside #colorlib-main-menu ul li.colorlib-active a {
-        color: #000; }
+        color: #19976E; }
         #colorlib-aside #colorlib-main-menu ul li.colorlib-active a:after {
           visibility: visible;
           -webkit-transform: scaleX(1);
@@ -210,7 +211,7 @@ figure {
         display: inline;
         list-style: none; }
         #colorlib-aside .colorlib-footer ul li a {
-          color: rgba(0, 0, 0, 0.7);
+          color: #fafafa;
           padding: 4px; }
           #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
             text-decoration: none;
@@ -218,6 +219,7 @@ figure {
             color: #19976E; }
 
 #colorlib-main {
+  background-color: #1a1a1a;
   width: 80%;
   float: right;
   -webkit-transition: 0.5s;
@@ -292,7 +294,7 @@ figure {
           bottom: 15px;
           left: 0;
           padding: 30px;
-          background: #fff; }
+          background: #1a1a1a; }
         @media screen and (max-width: 768px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
             text-align: center; } }
@@ -302,6 +304,7 @@ figure {
           color: black;
           font-family: "Quicksand", Arial, sans-serif; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+          color: #fafafa;
           margin-bottom: 20px;
           font-size: 44px;
           line-height: 1.3;
@@ -339,8 +342,8 @@ figure {
           font-weight: 400; }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
             background: transparent;
-            color: #000;
-            border: 1px solid #000; }
+            color: #fafafa;
+            border: 1px solid #fafafa; }
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
               background: transparent !important;
               border: 1px solid #000 !important; }
@@ -464,6 +467,9 @@ body.offcanvas {
   box-shadow: none !important;
   border: none; }
 
+.panel-group .panel {
+  background-color: #1a1a1a;}
+
 .panel-heading a:after {
   font-family: "icomoon";
   content: "\ea0e";
@@ -479,11 +485,12 @@ body.offcanvas {
   content: "\ea1c"; }
 
 .panel-heading a.collapsed {
-  background: #fafafa;
+  background: #000;
   border: 1px solid #e6e6e6 !important;
-  color: #333333; }
+  color: #fafafa; }
 
 .panel-body {
+  background-color: #1a1a1a;
   padding: 1.5em;
   margin-top: 5px;
   border: 1px solid #e6e6e6 !important; }
@@ -493,6 +500,10 @@ body.offcanvas {
   float: left;
   background: #fff;
   margin-bottom: 3em; }
+
+.desc {
+  background-color: #1a1a1a;
+}
   @media screen and (max-width: 768px) {
     .blog-entry {
       margin-bottom: 3em; } }
@@ -522,20 +533,20 @@ body.offcanvas {
     text-transform: uppercase;
     letter-spacing: 1px; }
     .blog-entry .desc h3 a {
-      color: #000;
+      color: #fafafa;
       text-decoration: none; }
   .blog-entry .desc span {
     display: block;
     margin-bottom: 20px;
     font-size: 14px;
-    color: rgba(0, 0, 0, 0.5) !important; }
+    color: #fafafa !important; }
     .blog-entry .desc span small i {
       color: #999999; }
   .blog-entry .desc .lead {
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #000; }
+    color: #fafafa; }
   .blog-entry:hover .blog-img img {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
@@ -782,7 +793,7 @@ body.offcanvas {
     .colorlib-feature .colorlib-text h3 {
       font-weight: 500;
       margin-bottom: 20px;
-      color: rgba(0, 0, 0, 0.7);
+      color: #fafafa;
       font-size: 14px;
       letter-spacing: 3px;
       text-transform: uppercase; }
@@ -808,8 +819,15 @@ body.offcanvas {
   text-transform: uppercase; }
 
 .colorlib-bg-color {
-  background: #fafafa;
+  background: #1a1a1a;
   position: relative; }
+
+.pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus {
+    color: #fafafa;
+    background-color: #1a1a1a;
+    border-color: #ddd;
+    cursor: not-allowed;
+}
 
 .pagination {
   padding: 0; }
@@ -825,6 +843,8 @@ body.offcanvas {
       -ms-border-radius: 0;
       border-radius: 0; }
       .pagination li a:first-child {
+        background-color: #1a1a1a;
+        color: #fafafa;
         -webkit-border-radius: 2px;
         -moz-border-radius: 2px;
         -ms-border-radius: 2px;
@@ -1125,11 +1145,11 @@ body.offcanvas {
 
     .skill-bars {
     	list-style: none;
-    	margin: 6rem 0 3rem;
+    	margin: 6rem 2rem 3rem 0;
     }
     .skill-bars li {
     	height: .6rem;
-    	background: #a1a1a1;
+    	background: grey;
     	width: 100%;
     	margin-bottom: 6rem;
     	padding: 0;
@@ -1140,14 +1160,14 @@ body.offcanvas {
     	left: 0;
     	top: -3rem;
     	font-family: "poppins-bold", sans-serif;
-    	color: #313131;
+    	color: #fafafa;
     	text-transform: uppercase;
     	letter-spacing: .2rem;
     	font-size: 1.5rem;
     	line-height: 2.4rem;
     }
     .skill-bars li .progress {
-    	background: #313131;
+    	background: #fafafa;
     	position: relative;
     	height: 100%;
     }
@@ -1195,3 +1215,86 @@ body.offcanvas {
     .skill-bars li .percent90  { width: 90%; }
     .skill-bars li .percent95  { width: 95%; }
     .skill-bars li .percent100 { width: 100%; }
+
+
+
+/*----------dark theme start-----------*/
+
+/*:root {
+  --color-bg: #fafafa;
+}
+
+.component {
+  background-color: var(--color-bg);
+}
+
+[data-theme="dark"] {
+  --color-bg: #1a1a1a;
+}
+*/
+/*----------dark theme end-------------*/
+
+
+/*----------switch button start----------*/
+
+/*.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}*/
+
+/* Rounded sliders */
+/*.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+*/
+/*----------switch button end------------*/
