@@ -2,7 +2,7 @@
 
 A personal portfolio site built with React and Tailwind CSS, showcasing my work, skills, and background as a Frontend Web Developer.
 
-🔗 **Repo:** https://github.com/izwanrusli/zwannsite-rev
+🔗 **Repo:** https://github.com/izwanrusli/zwannsite
 
 ## Tech Stack
 
