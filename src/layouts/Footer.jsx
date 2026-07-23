@@ -1,4 +1,5 @@
 import { FiArrowUp, FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
+import { SiBehance } from 'react-icons/si';
 import socials from '../data/socials';
 import profile from '../data/profile';
 
@@ -6,6 +7,7 @@ const SOCIAL_LINKS = [
   { icon: FiMail,     href: `mailto:${socials.email}`,  label: 'Email'    },
   { icon: FiGithub,   href: socials.github,              label: 'GitHub'   },
   { icon: FiLinkedin, href: socials.linkedin,            label: 'LinkedIn' },
+  { icon: SiBehance,  href: socials.behance,              label: 'Behance'  },
 ];
 
 /**

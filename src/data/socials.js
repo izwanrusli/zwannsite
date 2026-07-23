@@ -5,6 +5,7 @@ const socials = {
   email: 'izwanrusli8@gmail.com',
   github: 'https://github.com/izwanrusli',
   linkedin: 'https://linkedin.com/in/izwan-rusli',
+  behance: 'https://behance.net/izwanrusli',
   resume: '/izwan-resume-2025.pdf',
 };
 
