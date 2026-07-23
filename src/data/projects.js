@@ -4,22 +4,21 @@
 const projects = [
   {
     id: 1,
-    title: 'ShopSphere',
+    title: 'JBS Pest Control',
     description:
-      'A full-featured e-commerce platform with product filtering, cart management, and seamless checkout. Built for speed and conversion.',
-    tech: ['React', 'Tailwind CSS', 'Redux', 'Node.js'],
-    liveUrl: '#',
+      'A multi-page pest control website covering both web design and web development, with a PHP-powered contact form.',
+    tech: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'jQuery', 'PHP'],
+    liveUrl: 'https://jbspestcontrol.netlify.com',
     githubUrl: '#',
-    // Replace with your actual screenshot path or URL
     image: null,
     featured: true,
   },
   {
     id: 2,
-    title: 'TaskFlow',
+    title: 'Photographer Agency Landing Page',
     description:
-      'A minimalist project management app inspired by Linear. Features drag-and-drop boards, real-time updates, and a clean keyboard-driven interface.',
-    tech: ['React', 'Framer Motion', 'Firebase', 'Tailwind CSS'],
+      'A website design for a photographer agency, focused on user interface and user experience. Designed in Adobe XD.',
+    tech: ['Adobe XD', 'UI/UX Design', 'Web Design'],
     liveUrl: '#',
     githubUrl: '#',
     image: null,
@@ -27,10 +26,10 @@ const projects = [
   },
   {
     id: 3,
-    title: 'WeatherNow',
+    title: 'Portfolio Landing Page',
     description:
-      'A beautiful weather dashboard with location-based forecasts, hourly breakdowns, and animated weather conditions using the OpenWeather API.',
-    tech: ['React', 'REST API', 'CSS Animations', 'Vite'],
+      'A website design for a designer portfolio, covering user interface and user experience design. Designed in Adobe XD.',
+    tech: ['Adobe XD', 'UI/UX Design', 'Web Design'],
     liveUrl: '#',
     githubUrl: '#',
     image: null,
@@ -38,10 +37,10 @@ const projects = [
   },
   {
     id: 4,
-    title: 'DevBlog',
+    title: 'Creative Agency Landing Page',
     description:
-      'A markdown-powered personal blog with syntax highlighting, reading time estimates, and a distraction-free reading experience.',
-    tech: ['React', 'MDX', 'Tailwind CSS', 'Netlify'],
+      'A website design for a creative agency, covering user interface and user experience design. Designed in Adobe XD.',
+    tech: ['Adobe XD', 'UI/UX Design', 'Web Design'],
     liveUrl: '#',
     githubUrl: '#',
     image: null,
