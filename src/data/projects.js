@@ -1,7 +1,6 @@
 // ─── Projects Data ────────────────────────────────────────────
 // Add, remove, or edit projects here. The Projects section will update automatically.
 
-import jbsPestControl from '../assets/projects/jbs-pest-control.jpg';
 import photographerAgency from '../assets/projects/photographer-agency.jpg';
 import portfolioLanding from '../assets/projects/portfolio-landing.jpg';
 import creativeAgency from '../assets/projects/creative-agency.jpg';
@@ -9,17 +8,6 @@ import photocora from '../assets/projects/photocora.jpg';
 import wanderlust from '../assets/projects/wanderlust.jpg';
 
 const projects = [
-  {
-    id: 1,
-    title: 'JBS Pest Control',
-    description:
-      'A multi-page pest control website covering both web design and web development, with a PHP-powered contact form.',
-    tech: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'jQuery', 'PHP'],
-    liveUrl: 'https://jbspestcontrol.netlify.com',
-    githubUrl: '#',
-    image: jbsPestControl,
-    featured: true,
-  },
   {
     id: 2,
     title: 'Photographer Agency Landing Page',
