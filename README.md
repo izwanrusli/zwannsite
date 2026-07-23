@@ -1,16 +1,88 @@
-# React + Vite
+# Izwan Rusli — Portfolio Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A personal portfolio site built with React and Tailwind CSS, showcasing my work, skills, and background as a Frontend Web Developer.
 
-Currently, two official plugins are available:
+🔗 **Repo:** https://github.com/izwanrusli/zwannsite-rev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
 
-## React Compiler
+- **React 19** — UI library
+- **Vite** — build tool & dev server
+- **Tailwind CSS 4** — styling
+- **Framer Motion** — animations
+- **React Icons** — icon set
+- **Oxlint** — linting
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
 
-## Expanding the Oxlint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- [Node.js](https://nodejs.org/) (LTS recommended)
+- npm
+
+### Installation
+
+```bash
+npm install
+```
+
+### Development
+
+Starts the Vite dev server with hot module reloading:
+
+```bash
+npm run dev
+```
+
+The site will be available at `http://localhost:5173`.
+
+### Build
+
+Creates a production build in `dist/`:
+
+```bash
+npm run build
+```
+
+### Preview
+
+Serves the production build locally:
+
+```bash
+npm run preview
+```
+
+### Lint
+
+```bash
+npm run lint
+```
+
+## Project Structure
+
+```
+src/
+├── assets/          # Static images
+├── components/       # Reusable UI components (Badge, Button, ProjectCard, SkillCard, etc.)
+├── data/             # Site content — profile, skills, projects, social links
+├── hooks/            # Custom React hooks (dark mode, scroll spy)
+├── layouts/          # Navbar and Footer
+├── sections/         # Page sections (Hero, About, Skills, Projects, Contact)
+├── App.jsx           # Root component assembling the layout
+└── main.jsx          # Application entry point
+```
+
+## Customization
+
+Site content is centralized in `src/data/`:
+
+- `profile.js` — name, title, tagline, and bio
+- `skills.js` — tech stack shown in the Skills section
+- `projects.js` — featured projects
+- `socials.js` — social/contact links
+
+Edit these files to update the site's content without touching component code.
+
+## License
+
+This project is personal portfolio code and is not licensed for reuse.
