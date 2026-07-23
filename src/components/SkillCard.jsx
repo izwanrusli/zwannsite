@@ -3,14 +3,16 @@ import {
   DiHtml5, DiCss3,
 } from 'react-icons/di';
 import {
-  SiJavascript, SiReact, SiTailwindcss, SiBootstrap, SiJquery, SiGit, SiNetlify,
+  SiJavascript, SiReact, SiTailwindcss, SiBootstrap, SiJquery, SiGit, SiNetlify, SiRubyonrails,
+  SiFigma,
 } from 'react-icons/si';
 import { MdDevices } from 'react-icons/md';
 
 // Icon registry — maps iconName string → component (enables tree-shaking)
 const ICON_REGISTRY = {
   DiHtml5, DiCss3,
-  SiJavascript, SiReact, SiTailwindcss, SiBootstrap, SiJquery, SiGit, SiNetlify,
+  SiJavascript, SiReact, SiTailwindcss, SiBootstrap, SiJquery, SiGit, SiNetlify, SiRubyonrails,
+  SiFigma,
   MdDevices,
 };
 
@@ -39,7 +41,7 @@ function SkillCard({ skill }) {
           <IconComponent size={28} style={{ color: skill.color }} />
         ) : (
           <span className="text-xl font-bold" style={{ color: skill.color }}>
-            {skill.label.charAt(0)}
+            {skill.fallbackText || skill.label.charAt(0)}
           </span>
         )}
       </div>

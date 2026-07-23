@@ -3,7 +3,7 @@ import SectionWrapper from '../components/SectionWrapper';
 import profile from '../data/profile';
 
 const statItems = [
-  { value: '3+',   label: 'Years Experience' },
+  { value: '5+',   label: 'Years Experience' },
   { value: '20+',  label: 'Projects Built'   },
   { value: '100%', label: 'Passion for Code' },
 ];
