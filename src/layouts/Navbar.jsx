@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FiMenu, FiX } from 'react-icons/fi';
-import ThemeToggle from '../components/ThemeToggle';
 import useScrollSpy from '../hooks/useScrollSpy';
 import profile from '../data/profile';
 
@@ -17,7 +16,7 @@ const SECTION_IDS = ['hero', 'about', 'skills', 'projects', 'contact'];
 /**
  * Navbar — sticky glassmorphism navbar with scroll spy, mobile menu, and dark mode toggle.
  */
-function Navbar({ isDark, toggleTheme }) {
+function Navbar() {
   const [scrolled, setScrolled]   = useState(false);
   const [menuOpen, setMenuOpen]   = useState(false);
   const activeSection             = useScrollSpy(SECTION_IDS);
@@ -87,8 +86,6 @@ function Navbar({ isDark, toggleTheme }) {
 
         {/* Right Controls */}
         <div className="flex items-center gap-2">
-          <ThemeToggle isDark={isDark} toggle={toggleTheme} />
-
           {/* Mobile Hamburger */}
           <button
             className="md:hidden w-9 h-9 rounded-xl flex items-center justify-center

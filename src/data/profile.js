@@ -10,8 +10,6 @@ const profile = {
     'My focus is on creating interfaces that feel intuitive and delightful — leveraging the latest web technologies like React, Tailwind CSS, and Framer Motion to bring designs to life.',
     'I write clean, maintainable code and care deeply about user experience, accessibility, and performance optimization.',
   ],
-  // Update this to your actual resume URL or keep it as a relative path
-  resumeUrl: '/resume.pdf',
   availableForWork: true,
 };
 
