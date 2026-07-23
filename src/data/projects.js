@@ -1,6 +1,12 @@
 // ─── Projects Data ────────────────────────────────────────────
 // Add, remove, or edit projects here. The Projects section will update automatically.
 
+import jbsPestControl from '../assets/projects/jbs-pest-control.jpg';
+import photographerAgency from '../assets/projects/photographer-agency.jpg';
+import portfolioLanding from '../assets/projects/portfolio-landing.jpg';
+import creativeAgency from '../assets/projects/creative-agency.jpg';
+import photocora from '../assets/projects/photocora.jpg';
+
 const projects = [
   {
     id: 1,
@@ -10,7 +16,7 @@ const projects = [
     tech: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'jQuery', 'PHP'],
     liveUrl: 'https://jbspestcontrol.netlify.com',
     githubUrl: '#',
-    image: null,
+    image: jbsPestControl,
     featured: true,
   },
   {
@@ -21,7 +27,7 @@ const projects = [
     tech: ['Adobe XD', 'UI/UX Design', 'Web Design'],
     liveUrl: '#',
     githubUrl: '#',
-    image: null,
+    image: photographerAgency,
     featured: true,
   },
   {
@@ -32,7 +38,7 @@ const projects = [
     tech: ['Adobe XD', 'UI/UX Design', 'Web Design'],
     liveUrl: '#',
     githubUrl: '#',
-    image: null,
+    image: portfolioLanding,
     featured: true,
   },
   {
@@ -43,7 +49,7 @@ const projects = [
     tech: ['Adobe XD', 'UI/UX Design', 'Web Design'],
     liveUrl: '#',
     githubUrl: '#',
-    image: null,
+    image: creativeAgency,
     featured: true,
   },
   {
@@ -54,7 +60,7 @@ const projects = [
     tech: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'jQuery'],
     liveUrl: 'https://photocora.netlify.com/',
     githubUrl: '#',
-    image: null,
+    image: photocora,
     featured: true,
   },
 ];
