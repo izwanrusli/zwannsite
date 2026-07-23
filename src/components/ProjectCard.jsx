@@ -84,7 +84,7 @@ function ProjectCard({ project, index }) {
                 transition-colors duration-200"
             >
               <FiExternalLink size={12} />
-              Live Demo
+              {project.liveUrl.includes('behance.net') ? 'View Case Study' : 'Live Demo'}
             </a>
           ) : (
             <span className="flex items-center gap-1.5 px-3.5 py-2 rounded-lg text-xs font-medium

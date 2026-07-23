@@ -6,6 +6,7 @@ import photographerAgency from '../assets/projects/photographer-agency.jpg';
 import portfolioLanding from '../assets/projects/portfolio-landing.jpg';
 import creativeAgency from '../assets/projects/creative-agency.jpg';
 import photocora from '../assets/projects/photocora.jpg';
+import wanderlust from '../assets/projects/wanderlust.jpg';
 
 const projects = [
   {
@@ -61,6 +62,17 @@ const projects = [
     liveUrl: 'https://photocora.netlify.com/',
     githubUrl: '#',
     image: photocora,
+    featured: true,
+  },
+  {
+    id: 6,
+    title: 'Wanderlust',
+    description:
+      'A cinematic, editorial-style travel destination landing page concept, letting full-bleed photography and bold typography carry the storytelling.',
+    tech: ['Adobe XD', 'UI/UX Design', 'Web Design'],
+    liveUrl: 'https://www.behance.net/gallery/253166475/Wanderlust',
+    githubUrl: '#',
+    image: wanderlust,
     featured: true,
   },
 ];
