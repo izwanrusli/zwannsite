@@ -4,7 +4,7 @@ import {
 } from 'react-icons/di';
 import {
   SiJavascript, SiReact, SiTailwindcss, SiBootstrap, SiJquery, SiGit, SiNetlify, SiRubyonrails,
-  SiFigma,
+  SiFigma, SiWordpress,
 } from 'react-icons/si';
 import { MdDevices } from 'react-icons/md';
 
@@ -12,7 +12,7 @@ import { MdDevices } from 'react-icons/md';
 const ICON_REGISTRY = {
   DiHtml5, DiCss3,
   SiJavascript, SiReact, SiTailwindcss, SiBootstrap, SiJquery, SiGit, SiNetlify, SiRubyonrails,
-  SiFigma,
+  SiFigma, SiWordpress,
   MdDevices,
 };
 

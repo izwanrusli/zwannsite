@@ -13,6 +13,7 @@ const skills = [
   { id: 8,  label: 'Bootstrap',       iconLib: 'Si', iconName: 'SiBootstrap',     color: '#7952B3' },
   { id: 9,  label: 'Git',             iconLib: 'Si', iconName: 'SiGit',           color: '#F05032' },
   { id: 10,  label: 'Netlify',         iconLib: 'Si', iconName: 'SiNetlify',       color: '#00C7B7' },
+  { id: 14, label: 'WordPress',       iconLib: 'Si', iconName: 'SiWordpress',     color: '#21759B' },
   { id: 11, label: 'Figma',           iconLib: 'Si', iconName: 'SiFigma',         color: '#F24E1E' },
   { id: 12, label: 'Adobe XD',        iconLib: 'Si', iconName: 'SiAdobexd',       color: '#FF61F6', fallbackText: 'XD' },
   { id: 13, label: 'Responsive Design', iconLib: 'Md', iconName: 'MdDevices',     color: '#3B82F6' },
