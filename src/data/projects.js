@@ -6,6 +6,7 @@ import portfolioLanding from '../assets/projects/portfolio-landing.jpg';
 import creativeAgency from '../assets/projects/creative-agency.jpg';
 import photocora from '../assets/projects/photocora.jpg';
 import wanderlust from '../assets/projects/wanderlust.jpg';
+import filerenamepro from '../assets/projects/filerenamepro.jpg';
 
 const projects = [
   {
@@ -71,8 +72,7 @@ const projects = [
     tech: ['JavaScript', 'HTML', 'CSS', 'JSZip'],
     liveUrl: 'https://filerenamepro.netlify.app/',
     githubUrl: 'https://github.com/izwanrusli/file_rename',
-    // TODO: drop a screenshot into src/assets/projects/ and import it here
-    image: null,
+    image: filerenamepro,
     featured: true,
   },
 ];
