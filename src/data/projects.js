@@ -63,6 +63,18 @@ const projects = [
     image: wanderlust,
     featured: true,
   },
+  {
+    id: 7,
+    title: 'FileRename Pro',
+    description:
+      'A fast, private, browser-based batch file renamer for PDFs and images — apply naming rules and download individually or as a ZIP, all client-side with no uploads.',
+    tech: ['JavaScript', 'HTML', 'CSS', 'JSZip'],
+    liveUrl: 'https://filerenamepro.netlify.app/',
+    githubUrl: 'https://github.com/izwanrusli/file_rename',
+    // TODO: drop a screenshot into src/assets/projects/ and import it here
+    image: null,
+    featured: true,
+  },
 ];
 
 export default projects;
