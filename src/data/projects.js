@@ -46,6 +46,17 @@ const projects = [
     image: null,
     featured: true,
   },
+  {
+    id: 5,
+    title: 'Photocora',
+    description:
+      'A single-page personal photography website featuring a grid gallery with color overlay effects.',
+    tech: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'jQuery'],
+    liveUrl: 'https://photocora.netlify.com/',
+    githubUrl: '#',
+    image: null,
+    featured: true,
+  },
 ];
 
 export default projects;
